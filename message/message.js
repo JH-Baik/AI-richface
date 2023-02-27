@@ -17,7 +17,7 @@
         if (document.getElementById("honeypot").value) return false;
     
         disableAllButtons(form);
-        var url = "https://script.google.com/macros/s/AKfycbxNl5IPjgbJ0M5PQ2ID3E_FOHedpGZX29cH6bFACg/exec";
+        var url = "https://script.google.com/macros/s/********************************************/exec";
         var xhr = new XMLHttpRequest();
         xhr.open('POST', url);
         // xhr.withCredentials = true;
