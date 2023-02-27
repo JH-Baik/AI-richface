@@ -332,7 +332,7 @@ function shareSns() {
         window.open(`https://share.naver.com/web/shareView.nhn?url=${HREF}&title=${sendText}`, 'Popup', `width=${stageW}, height=${stageH}`);
     });
 
-    Kakao.init('********************************');
+    Kakao.init('**********************************');
     btnShareKt.addEventListener('click', () => {
         Kakao.Share.sendScrap({
             requestUrl: HREF,
